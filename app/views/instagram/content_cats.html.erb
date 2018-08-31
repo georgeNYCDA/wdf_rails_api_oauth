@@ -1,0 +1,5 @@
+<h2>#<%= @main_tag %> Media</h2>
+
+<% @media_items.each do |media_item| %>
+    <div><img src="<%= media_item.images.thumbnail.url %>"></div>
+<% end %>
